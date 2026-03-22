@@ -1,0 +1,9 @@
+MP07 - Sort Records Alphabetically
+===================================
+ 
+The program asks the user for the CSV file path, reads each line, and
+skips metadata rows until it finds the real header. It then extracts all
+8 columns from every valid row (Candidate, Type, Exam, Language, Exam Date,
+Score, Result, Time Used) and stores them as record objects. Once all
+records are loaded, they are sorted A to Z by candidate name. The sorted
+list is then printed in a table showing all 8 columns.
