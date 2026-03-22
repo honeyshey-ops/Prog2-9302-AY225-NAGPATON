@@ -1,6 +1,5 @@
 MP07 - Sort Records Alphabetically
 ===================================
- 
 The program asks the user for the CSV file path, reads each line, and
 skips metadata rows until it finds the real header. It then extracts all
 8 columns from every valid row (Candidate, Type, Exam, Language, Exam Date,

@@ -8,12 +8,6 @@
 import java.io.*;
 import java.util.*;
 
-/**
- * MP07 - Sort Records Alphabetically
- * This program reads a CSV dataset and sorts candidate records
- * alphabetically by last name, then displays the sorted results.
- */
-
 public class MP07_SortRecords {
 
     // Represents one row/record from the CSV file

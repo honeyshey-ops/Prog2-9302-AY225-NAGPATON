@@ -1,14 +1,10 @@
 // ----------------------------------------------------------
-// MP08  | Filter Records by Keyword
+// MP08  |  Filter Records by Keyword
 // Programmer  : NAGPATON, FRANCESCA LOUISE MAY G.
 // Course      : Programming 2 — BSIT GD 1st Year
+// Description : Filters and displays all records where the keyword matches
+//               any field (name, exam, type, result, data, etc.).
 // ----------------------------------------------------------
-
-/**
- * MP08 - Filter Records by Keyword
- * Reads a CSV dataset, prompts the user for a keyword,
- * then displays all records where any field matches the keyword.
- */
 
 const fs = require("fs");
 const readline = require("readline");

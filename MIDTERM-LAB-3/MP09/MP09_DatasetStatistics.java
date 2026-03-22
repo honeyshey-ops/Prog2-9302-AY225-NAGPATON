@@ -1,35 +1,16 @@
 // ----------------------------------------------------------
-// MP08  | Filter Records by Keyword
+// MP09  |  Display Dataset Statistics
 // Programmer  : NAGPATON, FRANCESCA LOUISE MAY G.
 // Course      : Programming 2 — BSIT GD 1st Year
-// ----------------------------------------------------------
-
-/**
- * MP09 - Display Dataset Statistics
- * Reads the CSV dataset and computes key statistics:
- * total records, pass/fail counts, average score,
- * highest/lowest scores, and exam frequency breakdown.
- */
-
-
-// ----------------------------------------------------------
-// MP08  | Filter Records by Keyword
-// Programmer  : NAGPATON, FRANCESCA LOUISE MAY G.
-// Course      : Programming 2 — BSIT GD 1st Year
-// Description : Reads a CSV file of Pearson VUE exam results
-//               and displays all records sorted A–Z by name.
+// Description : Reads the CSV dataset and computes
+//               key statistics: total records, pass/fail counts,
+//               average score, highest and lowest scores,
+//               and the number of exams taken per exam type.
 // ----------------------------------------------------------
 
 import java.io.*;
 import java.util.*;
 
-/**
- * MP09 - Display Dataset Statistics
- * This program reads the CSV dataset and computes
- * key statistics: total records, pass/fail counts,
- * average score, highest and lowest scores,
- * and the number of exams taken per exam type.
- */
 public class MP09_DatasetStatistics {
 
     // Holds all relevant fields for one candidate record

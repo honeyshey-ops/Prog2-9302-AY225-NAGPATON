@@ -1,12 +1,14 @@
+// ----------------------------------------------------------
+// MP08  |  Filter Records by Keyword
+// Programmer  : NAGPATON, FRANCESCA LOUISE MAY G.
+// Course      : Programming 2 — BSIT GD 1st Year
+// Description : Filters and displays all records where the keyword matches
+//               any field (name, exam, type, result, data, etc.).
+// ----------------------------------------------------------
+
 import java.io.*;
 import java.util.*;
 
-/**
- * MP08 - Filter Records by Keyword
- * This program reads a CSV dataset, asks the user for a keyword,
- * then filters and displays all records where the keyword matches
- * any field (name, exam, type, result, date, etc.).
- */
 public class MP08_FilterByKeyword {
 
     // Represents one parsed row from the CSV

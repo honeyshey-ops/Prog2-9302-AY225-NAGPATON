@@ -1,8 +1,10 @@
-/**
- * MP07 - Sort Records Alphabetically
- * Reads a CSV dataset and sorts candidate records
- * alphabetically by last name, then displays the sorted results.
- */
+// ----------------------------------------------------------
+// MP07  |  Sort Records Alphabetically
+// Programmer  : NAGPATON, FRANCESCA LOUISE MAY G.
+// Course      : Programming 2 — BSIT GD 1st Year
+// Description : Reads a CSV file of Pearson VUE exam results
+//               and displays all records sorted A–Z by name.
+// ----------------------------------------------------------
 
 const fs = require("fs");
 const readline = require("readline");

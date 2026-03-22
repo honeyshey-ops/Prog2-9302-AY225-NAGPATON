@@ -1,15 +1,12 @@
 // ----------------------------------------------------------
-// MP08  | Filter Records by Keyword
+// MP09  |  Display Dataset Statistics
 // Programmer  : NAGPATON, FRANCESCA LOUISE MAY G.
 // Course      : Programming 2 — BSIT GD 1st Year
+// Description : Reads the CSV dataset and computes
+//               key statistics: total records, pass/fail counts,
+//               average score, highest and lowest scores,
+//               and the number of exams taken per exam type.
 // ----------------------------------------------------------
-
-/**
- * MP09 - Display Dataset Statistics
- * Reads the CSV dataset and computes key statistics:
- * total records, pass/fail counts, average score,
- * highest/lowest scores, and exam frequency breakdown.
- */
 
 const fs = require("fs");
 const readline = require("readline");
