@@ -1,0 +1,9 @@
+MP09 - Display Dataset Statistics
+===================================
+ 
+The program asks for the CSV file path and reads all 8 columns per row
+(Candidate, Type, Exam, Language, Exam Date, Score, Result, Time Used).
+In one loop it collects all statistics at once: PASS/FAIL counts from
+Result, score tracking from Score and Candidate, and frequency maps for
+Exam, Type, Language, and Exam Date. After the loop, average score and
+pass rate are calculated and the full report is printed in sections.

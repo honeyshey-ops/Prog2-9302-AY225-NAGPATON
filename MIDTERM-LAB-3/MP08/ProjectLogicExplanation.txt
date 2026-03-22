@@ -1,0 +1,9 @@
+MP08 - Filter Records by Keyword
+==================================
+ 
+The program asks the user for the CSV file path and loads all 8 columns
+from every valid row (Candidate, Type, Exam, Language, Exam Date, Score,
+Result, Time Used). It then asks for a keyword and searches every column
+of every record. Any record where the keyword appears in at least one
+column is included in the results. The search is case-insensitive so
+"python" matches "Python". All 8 columns are shown in the output table.
